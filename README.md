@@ -13,7 +13,8 @@ presented by [Project Euler](https://projecteuler.net) in 365. The fun during th
 be the implementation in 10 different programming languages for each problem.
 
 Each problem will be described in a pdf that you can generate with `$ make [Number].note`,
-that contains optimization ideas and basic concepts of how the solution works.
+that contains optimization ideas and basic concepts of how the solution works. The solution
+on its own however won't be provided.
 
 If a new problem has been solved in a language, a new tweet will arrive at [@SolutionsEuler](https://twitter.com/SolutionsEuler).
 
