@@ -20,8 +20,8 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-# Solving Project Euler Problem 1: Multiples of 3 and 5
-# URL: https://projecteuler.net/problem=1
+# Solving Project Euler Problem 2: Even Fibonacci numbers
+# URL: https://projecteuler.net/problem=2
 
 MAX_NUM = 4_000_000
 GOLDEN_RATIO = (1.00 + Math.sqrt(5)) / 2.00
