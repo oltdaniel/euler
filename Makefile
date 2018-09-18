@@ -13,11 +13,17 @@ notes: $(NOTES)
 
 # Compile and execute different scripts
 %.java: java.container
-	docker run --name=euler1_java \
+	docker run --name=euler_java \
 		--rm \
 		-v `pwd`/problems/$*/solution.java:/app/solution.java \
 		java_euler:latest
 
+%.ruby: ruby.container
+	docker run --name=euler_ruby \
+		--rm \
+		-v `pwd`/problems/$*/solution.rb:/app/solution.rb \
+		ruby_euler:latest
+
 # Build containers
 %.container:
-	docker build -t java_euler - < ./docker/$*.Dockerfile
+	docker build -t $*_euler - < ./docker/$*.Dockerfile
