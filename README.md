@@ -27,7 +27,7 @@ on any machine without issues.
 Use Programming Languages:
 - Java _(`openjdk-8`)_
 - Ruby _(`ruby2.5`)_
-- C _(clang5.0.1-r1)_
+- C _(`clang5.0.1-r1`)_
 - Python
 - Go
 - Swift
@@ -51,7 +51,8 @@ $ make 1.notes
 
 # Run a problem in a specific language
 # NOTE: 1 can be any number
-# NOTE: java can be any programming language listed above
+# NOTE: java can be any programming language:
+#  java, ruby, c
 $ make 1.java
 ```
 
