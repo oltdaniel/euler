@@ -24,6 +24,12 @@ notes: $(NOTES)
 		-v `pwd`/problems/$*/solution.rb:/app/solution.rb \
 		ruby_euler:latest
 
+%.c: c.container
+	docker run --name=euler_c \
+		--rm \
+		-v `pwd`/problems/$*/solution.c:/app/solution.c \
+		c_euler:latest
+
 # Build containers
 %.container:
 	docker build -t $*_euler - < ./docker/$*.Dockerfile

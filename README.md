@@ -27,7 +27,7 @@ on any machine without issues.
 Use Programming Languages:
 - Java _(`openjdk-8`)_
 - Ruby _(`ruby2.5`)_
-- C
+- C _(clang5.0.1-r1)_
 - Python
 - Go
 - Swift
