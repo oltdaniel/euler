@@ -40,6 +40,6 @@ class Solution {
   }
 
   private static long numOfFibanocciUnderLimit(long n) {
-    return (long)((double)Math.log(Math.sqrt(5) * n) / (double)Math.log((1 + Math.sqrt(5)) / 2));
+    return (long)((double)Math.log(Math.sqrt(5) * n) / (double)Math.log(GOLDEN_RATIO));
   }
 }

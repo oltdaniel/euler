@@ -9,8 +9,8 @@ euler solutions
 ## About
 
 This project is a challenge for myself, where I will try to solve all 636 Euler Problems
-presented by [Project Euler](https://projecteuler.net) in 365. The fun during this, will
-be the implementation in 10 different programming languages for each problem.
+presented by [Project Euler](https://projecteuler.net) in the most efficient way. The fun during
+this, will be the implementation in 12 different programming languages for each problem.
 
 Each problem will be described in a pdf that you can generate with `$ make [Number].note`,
 that contains optimization ideas and basic concepts of how the solution works. The solution
@@ -31,7 +31,7 @@ Use Programming Languages:
 - Python
 - Go
 - Swift
-- PHP
+- Rust
 - Erlang
 - Perl
 - Clojure
