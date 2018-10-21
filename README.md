@@ -30,7 +30,7 @@ Use Programming Languages:
 - C _(`clang5.0.1-r1`)_
 - Python _(`python3.7.0`)_
 - Go _(`go1.11`)_
-- Swift
+- Swift _(`swift4.2`)_
 - Rust
 - Erlang
 - Perl

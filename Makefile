@@ -42,6 +42,12 @@ notes: $(NOTES)
 		-v `pwd`/problems/$*/solution.go:/app/solution.go \
 		go_euler:latest
 
+%.swift: swift.container
+	docker run --name=euler_swift \
+		--rm \
+		-v `pwd`/problems/$*/solution.swift:/app/solution.swift \
+		swift_euler:latest
+
 # Build containers
 %.container:
 	docker build -t $*_euler - < ./docker/$*.Dockerfile
