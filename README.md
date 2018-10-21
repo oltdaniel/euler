@@ -29,7 +29,7 @@ Use Programming Languages:
 - Ruby _(`ruby2.5`)_
 - C _(`clang5.0.1-r1`)_
 - Python _(`python3.7.0`)_
-- Go _(`go1`)_
+- Go _(`go1.11`)_
 - Swift
 - Rust
 - Erlang
