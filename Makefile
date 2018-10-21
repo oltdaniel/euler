@@ -36,6 +36,12 @@ notes: $(NOTES)
 		-v `pwd`/problems/$*/solution.py:/app/solution.py \
 		python_euler:latest
 
+%.go: go.container
+	docker run --name=euler_go \
+		--rm \
+		-v `pwd`/problems/$*/solution.go:/app/solution.go \
+		go_euler:latest
+
 # Build containers
 %.container:
 	docker build -t $*_euler - < ./docker/$*.Dockerfile
