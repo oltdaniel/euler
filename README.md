@@ -28,7 +28,7 @@ Use Programming Languages:
 - Java _(`openjdk-8`)_
 - Ruby _(`ruby2.5`)_
 - C _(`clang5.0.1-r1`)_
-- Python
+- Python _(`python3.7.0`)_
 - Go
 - Swift
 - Rust

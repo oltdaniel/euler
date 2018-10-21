@@ -30,6 +30,12 @@ notes: $(NOTES)
 		-v `pwd`/problems/$*/solution.c:/app/solution.c \
 		c_euler:latest
 
+%.python: python.container
+	docker run --name=euler_python \
+		--rm \
+		-v `pwd`/problems/$*/solution.py:/app/solution.py \
+		python_euler:latest
+
 # Build containers
 %.container:
 	docker build -t $*_euler - < ./docker/$*.Dockerfile
